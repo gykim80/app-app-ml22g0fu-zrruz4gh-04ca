@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "savedAt": "2026-01-31T08:44:36.840Z",
+  "savedAt": "2026-01-31T08:49:59.630Z",
   "appMeta": {
     "appTitle": "이미지 갤러리",
     "chatPrompt": "갤러리를 만들어줘",
-    "createdAt": "2026-01-31T08:44:36.840Z",
-    "lastModifiedAt": "2026-01-31T08:44:36.840Z"
+    "createdAt": "2026-01-31T08:49:59.630Z",
+    "lastModifiedAt": "2026-01-31T08:49:59.630Z"
   },
   "chatHistory": [
     {
@@ -83,6 +83,18 @@
       "role": "assistant",
       "content": "App is ready! Check the Preview tab. You can apply changes by typing modifications.",
       "timestamp": "2026-01-31T08:44:35.181Z"
+    },
+    {
+      "id": "msg_1769849076841_psp987r",
+      "role": "system",
+      "content": "앱이 갤러리에 저장되었습니다: \"갤러리를 만들어줘\"",
+      "timestamp": "2026-01-31T08:44:36.841Z"
+    },
+    {
+      "id": "msg_1769849097673_bmwz0p9",
+      "role": "system",
+      "content": "GitHub에 자동 저장되었습니다: [gykim80/app-app-ml22g0fu-zrruz4gh-04ca](https://github.com/gykim80/app-app-ml22g0fu-zrruz4gh-04ca)",
+      "timestamp": "2026-01-31T08:44:57.673Z"
     }
   ],
   "planning": {
@@ -254,17 +266,6 @@
     ]
   },
   "terminalLogs": [
-    "✅ Phase complete: 1 files generated",
-    "\n🔍 Validating 33 files...",
-    "⚠️ Found 11 errors, attempting to fix...",
-    "[Fix] ⚠️ 무한 루프 감지: fix_loop (10회)",
-    "[Fix] 동일 에러가 10회 반복되고 있습니다 (src/App.jsx).\n에러: Hook이 조건문 안에서 호출되었습니다. Hook은 컴포넌트 최상위에서만 호출해야 합니다....\n\n권장 조치:\n1. 다른 구현 방식 시도\n2. 관련 컴포넌트 구조 재검토\n3. 의존성 패키지 버전 확인",
-    "[Fix] 다른 방식으로 컴포넌트를 재작성합니다.",
-    "[Fix] 오류 수정 시도 1/5 - 11개 오류 발견",
-    "[Fix] 오류 분류: Runtime: 10, Lint: 1",
-    "[Fix] 휴리스틱 패턴 매칭으로 빠른 수정 시도 중...",
-    "[Fix] 런타임 에러 10개 분석 중...",
-    "[Fix] AI 기반 심층 디버깅 시작...",
     "[Fix] AI 분석 중: src/App.jsx (11개 에러)",
     "[state] FIXING: 11개 오류 발견",
     "[Fix] ✅ AI 수정 완료: src/App.jsx",
@@ -303,7 +304,18 @@
     "Waiting for server ready...",
     "✅ Server ready at: https://sgngj5ywdvcmt2oxopc4yvvt1qaoco-v35d--5173--31fc58ec.local-corp.webcontainer-api.io",
     "[success] Server ready: https://sgngj5ywdvcmt2oxopc4yvvt1qaoco-v35d--5173--31fc58ec.local-corp.webcontainer-api.io",
-    "[state] REVIEWING: 앱 실행 중"
+    "[state] REVIEWING: 앱 실행 중",
+    "[success] 갤러리에 저장 완료: 2d8d65e4-2008-4ffc-b26c-4cd0f1bbd392",
+    "[GitHub] 자동 저장 시작...",
+    "[state] 앱 상태 직렬화 완료 (채팅: 10개, Blueprint: O, Planning: O)",
+    "[GitHub] 새 레포지토리 생성 중...",
+    "✅ 앱 빌드 및 검증 완료",
+    "[state] IDLE: 대기 중",
+    "[GitHub] ✅ 커밋 완료: 4206293",
+    "[GitHub] 저장 완료: https://github.com/gykim80/app-app-ml22g0fu-zrruz4gh-04ca",
+    "[Project] 기존 프로젝트 확인 중...",
+    "[Project] 프로젝트 생성 중...",
+    "[Project] 프로젝트 생성 완료: f587f355-3938-4368-b8cb-c5dd9dcf9c6b"
   ],
   "phaseProgress": {
     "currentPhaseIndex": 1,
